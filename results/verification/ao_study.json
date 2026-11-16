@@ -1,0 +1,97 @@
+{
+  "channels": 1000,
+  "convergence": [
+    {
+      "iterations": 0,
+      "mean_true_secrecy": 0.3305333817528242,
+      "ci95_halfwidth": 0.012109273162488776,
+      "mean_surrogate": 0.504655581930026
+    },
+    {
+      "iterations": 1,
+      "mean_true_secrecy": 0.39725114079201707,
+      "ci95_halfwidth": 0.01270432429610264,
+      "mean_surrogate": 0.6145309683257649
+    },
+    {
+      "iterations": 2,
+      "mean_true_secrecy": 0.39957426543670116,
+      "ci95_halfwidth": 0.012706595719234343,
+      "mean_surrogate": 0.6184071177997741
+    },
+    {
+      "iterations": 3,
+      "mean_true_secrecy": 0.3997286359710636,
+      "ci95_halfwidth": 0.012708505076473876,
+      "mean_surrogate": 0.6187539665813513
+    },
+    {
+      "iterations": 5,
+      "mean_true_secrecy": 0.3997429248780669,
+      "ci95_halfwidth": 0.01271006080949714,
+      "mean_surrogate": 0.6188385734343093
+    },
+    {
+      "iterations": 8,
+      "mean_true_secrecy": 0.3997320153068002,
+      "ci95_halfwidth": 0.012711553046562764,
+      "mean_surrogate": 0.6188479701888243
+    },
+    {
+      "iterations": 12,
+      "mean_true_secrecy": 0.3997300447297109,
+      "ci95_halfwidth": 0.01271299885815277,
+      "mean_surrogate": 0.6188505680395581
+    },
+    {
+      "iterations": 20,
+      "mean_true_secrecy": 0.39973034984789463,
+      "ci95_halfwidth": 0.012714141611772098,
+      "mean_surrogate": 0.6188513068879312
+    },
+    {
+      "iterations": 30,
+      "mean_true_secrecy": 0.39973270720913306,
+      "ci95_halfwidth": 0.012714451509533771,
+      "mean_surrogate": 0.6188514029930257
+    },
+    {
+      "iterations": 50,
+      "mean_true_secrecy": 0.3997338317612058,
+      "ci95_halfwidth": 0.012714506911811495,
+      "mean_surrogate": 0.6188514099906891
+    },
+    {
+      "iterations": 100,
+      "mean_true_secrecy": 0.39973392352259973,
+      "ci95_halfwidth": 0.01271450743459615,
+      "mean_surrogate": 0.6188514100691578
+    }
+  ],
+  "surrogate_nonincrease_fraction_of_steps": 0.0,
+  "median_relative_surrogate_change_iter11_to_12": 6.789881169328324e-14,
+  "AO12_mean": 0.3997300447297109,
+  "AO12_ci": 0.01271299885815277,
+  "AO100_mean": 0.39973392352259973,
+  "AO100_minus_AO12_mean": 3.878792888823507e-06,
+  "AO100_minus_AO12_paired_ci": 2.6641599375866245e-05,
+  "multistart10_by_surrogate_mean": 0.3997162155319739,
+  "multistart_minus_AO12_mean": -1.3829197737045356e-05,
+  "multistart_minus_AO12_paired_ci": 4.1445293093423975e-05,
+  "multistart10_oracle_true_best_mean_UPPER_BOUND_NOT_DEPLOYABLE": 0.39973392936679736,
+  "quantized_AO12_mean": {
+    "1-bit": 0.37034034696683504,
+    "2-bit": 0.391147676618619,
+    "3-bit": 0.39736331259203167
+  },
+  "quantized_AO12_ci": {
+    "1-bit": 0.012479124117648045,
+    "2-bit": 0.01264509341869616,
+    "3-bit": 0.012691539562964507
+  },
+  "cpu_ms_per_channel": {
+    "AO_12it": 1.9820042870010184,
+    "AO_100it": 14.874344171000415,
+    "AO_10start_x100it_extra9": 133.81068533199948
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "reproduction_max_abs_diff_vs_published_mean_secrecy": {
+    "TD3-RIS": 0,
+    "AO-RIS": 0,
+    "Random-RIS": 0,
+    "No-RIS": 0
+  },
+  "pair_summaries": {
+    "AO-RIS vs No-RIS": {
+      "points": 34,
+      "significant_both_tests_holm05": 33,
+      "A_better_points": 34
+    },
+    "AO-RIS vs Random-RIS": {
+      "points": 34,
+      "significant_both_tests_holm05": 33,
+      "A_better_points": 34
+    },
+    "Random-RIS vs No-RIS": {
+      "points": 34,
+      "significant_both_tests_holm05": 0,
+      "A_better_points": 29
+    },
+    "AO-RIS vs TD3-RIS": {
+      "points": 34,
+      "significant_both_tests_holm05": 33,
+      "A_better_points": 34
+    },
+    "No-RIS vs TD3-RIS": {
+      "points": 34,
+      "significant_both_tests_holm05": 31,
+      "A_better_points": 34
+    },
+    "Random-RIS vs TD3-RIS": {
+      "points": 34,
+      "significant_both_tests_holm05": 31,
+      "A_better_points": 34
+    }
+  },
+  "nominal": {
+    "means": {
+      "AO-RIS": 0.3997300447297109,
+      "Random-RIS": 0.3306443101184351,
+      "No-RIS": 0.33035075460050844,
+      "TD3-RIS": 0.046068992432698234
+    },
+    "TD3_seed_means": [
+      0.0500292193003813,
+      0.04572535579757884,
+      0.045520476401207884,
+      0.04665206149294738,
+      0.042417849171375754
+    ],
+    "TD3_t_interval_over_seeds_df4": [
+      0.04268143530391163,
+      0.049456549561484826
+    ],
+    "TD3_hier_bootstrap95": [
+      0.042365456263010026,
+      0.04993729057544882
+    ],
+    "TD3_channel_only95": [
+      0.04346205346785976,
+      0.04867593139753671
+    ],
+    "AO_minus_TD3_hier_bootstrap95": [
+      0.3416540916886707,
+      0.3655029136470262
+    ],
+    "AO_minus_TD3_channel_only95_published": [
+      0.3421,
+      0.3652
+    ],
+    "Random_minus_NoRIS": {
+      "Random-RIS-No-RIS": {
+        "point": "n|128|15.0",
+        "A": "Random-RIS",
+        "B": "No-RIS",
+        "mean_A_minus_B": 0.0002935555179267001,
+        "ci95_paired": 0.00047883705483512144,
+        "cohen_dz": 0.037997810154639676,
+        "t_p": 0.22980476643238962,
+        "wilcoxon_p": 0.3594408239486584,
+        "t_p_holm": 1.0,
+        "wilcoxon_p_holm": 1.0
+      }
+    },
+    "AO_minus_NoRIS": {
+      "point": "n|128|15.0",
+      "A": "AO-RIS",
+      "B": "No-RIS",
+      "mean_A_minus_B": 0.06937929012920253,
+      "ci95_paired": 0.003071835390323318,
+      "cohen_dz": 1.39987089377344,
+      "t_p": 9.201093886251532e-238,
+      "wilcoxon_p": 8.658995206125104e-149,
+      "t_p_holm": 9.477126702839078e-236,
+      "wilcoxon_p_holm": 8.572405254063854e-147
+    },
+    "SEE_NoRIS_minus_AO": {
+      "mean": 0.07112576068228303,
+      "t_p": 1.0076671316043824e-82,
+      "wilcoxon_p": 2.9146519409218936e-71
+    }
+  },
+  "tests": 204
+}

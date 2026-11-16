@@ -1,0 +1,9 @@
+{
+ "TD3 (one actor), ms": 0.2979342500000257,
+ "AO-RIS 12 iterations, ms": 1.170309135000025,
+ "AO-RIS 100 iterations, ms": 7.76386555199997,
+ "Random-RIS, ms": 0.09092603400006283,
+ "No-RIS, ms": 0.05491766000000098,
+ "TD3 actor multiply-accumulate operations": 697344,
+ "note": "Values reported in Table 4 (single thread, Intel Xeon 2.1 GHz). Re-running revision/timing.py overwrites this file with timings for your machine."
+}

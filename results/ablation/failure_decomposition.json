@@ -1,0 +1,40 @@
+{
+  "uniform_random_action": 0.042813553418034854,
+  "td3_full_action": 0.046068992374378316,
+  "td3_beam_with_all_one_phases": 0.04604700800240495,
+  "td3_phases_with_surrogate_beam": 0.33033307571050263,
+  "mean_|cos|_td3_beam_vs_surrogate_beam": 0.31906726346498315,
+  "random_beam_expected_|cos|_M8": 0.31439582785388526,
+  "actor_output_stats": [
+    {
+      "mean_abs_action": 0.9871137142181396,
+      "fraction_saturated_|a|>0.99": 0.9375138888888889,
+      "mean_abs_change_from_init": 0.9831156730651855,
+      "action_sd_across_channels": 0.0004963937099091709
+    },
+    {
+      "mean_abs_action": 0.9665831327438354,
+      "fraction_saturated_|a|>0.99": 0.9077847222222222,
+      "mean_abs_change_from_init": 0.9791541695594788,
+      "action_sd_across_channels": 0.0009091637330129743
+    },
+    {
+      "mean_abs_action": 0.9851899147033691,
+      "fraction_saturated_|a|>0.99": 0.9430694444444444,
+      "mean_abs_change_from_init": 0.9834761023521423,
+      "action_sd_across_channels": 0.0004733183595817536
+    },
+    {
+      "mean_abs_action": 0.9890457987785339,
+      "fraction_saturated_|a|>0.99": 0.9223888888888889,
+      "mean_abs_change_from_init": 0.9962404370307922,
+      "action_sd_across_channels": 0.0003972042177338153
+    },
+    {
+      "mean_abs_action": 0.9991993308067322,
+      "fraction_saturated_|a|>0.99": 0.9710416666666667,
+      "mean_abs_change_from_init": 0.9995618462562561,
+      "action_sd_across_channels": 6.59014331176877e-05
+    }
+  ]
+}
